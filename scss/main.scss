@@ -1,0 +1,133 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+/*$small-desktop: new-breakpoint(max-width 1000px min-width 626px);*/
+/*$large-tablet: new-breakpoint(max-width 925px min-width 769px 9);*/
+/*$mobile: new-breakpoint(max-width 768px min-width 481px 4);*/
+/*$small-mobile: new-breakpoint(max-width 480px 4);*/
+
+.container {
+    background-color: RGBA(70, 162, 218, 1);
+    width: 1000px;
+    height: 570px;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+input:focus {
+    outline: none !important;
+    border:2px solid RGBA(31, 104, 154, 1);
+}
+
+textarea:focus {
+    outline: none !important;
+    border:2px solid RGBA(31, 104, 154, 1);
+}
+
+.left {
+    float: left;
+    width: 300px;
+}
+
+.first-name {
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.last-name {
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.email {
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.country-selector {
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.bio {
+    margin-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.center {
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    padding-left: 25px;
+}
+
+.phone-number {
+    margin-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.affiliations {
+    margin-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.occupation-selector {
+    padding-top: 25px;
+    margin-left: 20px;
+    color: white;
+}
+
+.cats-name {
+    margin-left: 20px;
+    padding-top: 25px;
+    color: white;
+}
+
+.fav-gadget{
+    margin-left: 20px;
+    padding-top: 26px;
+    color: white;
+}
+
+.right {
+    float: right;
+    width: 340px;
+}
+
+.talent-selector {
+    padding-top: 25px;
+    margin-left: 10px;
+    color: white;
+}
+
+.fav-drink {
+    margin-left: 10px;
+    padding-top: 25px;
+    color: white;
+}
+
+.special-power {
+    margin-left: 10px;
+    padding-top: 25px;
+    color: white;
+}
+
+.weapon-choice {
+    margin-left: 10px;
+    padding-top: 20px;
+    color: white;
+}
+
+.comment {
+    margin-left: 10px;
+    padding-top: 20px;
+    color: white;
+}
